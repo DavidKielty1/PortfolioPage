@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './portfolio.scss'
 import Arrow from '../../assets/images/arrow.png'
+import Sun from '../../assets/images/chin2.png'
+import Dragon from '../../assets/images/logo3.png'
 import NewYear from '../../assets/images/newyear.png'
 import Chinese from '../../assets/images/chinese.png'
 import Yelp from '../../assets/images/yelp.png'
@@ -20,10 +22,10 @@ export default function Test() {
     },
     {
       id: '2',
-      icon: Arrow,
+      icon: Sun,
       title: 'Mobile',
       desc: '2Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      img: Arrow,
+      img: Dragon,
     },
     {
       id: '3',
@@ -54,11 +56,7 @@ export default function Test() {
                 </div>
                 <h2>{data[0].title}</h2>
                 <p>{data[0].desc}</p>
-                <a
-                  href="https://limitless-refuge-85260.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={data[0].website} target="_blank" rel="noreferrer">
                   <input
                     type="button"
                     className="button"
