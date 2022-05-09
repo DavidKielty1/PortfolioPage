@@ -82,11 +82,11 @@ export default function Test() {
             <div className="left">
               <div className="leftContainer">
                 <div className="imgContainer">
-                  <img src={data[0].icon} alt="" />
+                  <img src={data[1].icon} alt="" />
                 </div>
-                <h2>{data[0].title}</h2>
-                <p>{data[0].desc}</p>
-                <a href={data[0].website} target="_blank" rel="noreferrer">
+                <h2>{data[1].title}</h2>
+                <p>{data[1].desc}</p>
+                <a href={data[1].website} target="_blank" rel="noreferrer">
                   <input
                     type="button"
                     className="button"
@@ -96,7 +96,7 @@ export default function Test() {
               </div>
             </div>
             <div className="right">
-              <img src={data[0].img} alt="" />
+              <img src={data[1].img} alt="" />
             </div>
           </div>
         </div>
@@ -110,10 +110,10 @@ export default function Test() {
             <div className="left">
               <div className="leftContainer">
                 <div className="imgContainer">
-                  <img src={data[0].icon} alt="" />
+                  <img src={data[2].icon} alt="" />
                 </div>
-                <h2>{data[0].title}</h2>
-                <p>{data[0].desc}</p>
+                <h2>{data[2].title}</h2>
+                <p>{data[2].desc}</p>
                 <a
                   href="https://limitless-refuge-85260.herokuapp.com/"
                   target="_blank"
@@ -128,7 +128,7 @@ export default function Test() {
               </div>
             </div>
             <div className="right">
-              <img src={data[0].img} alt="" />
+              <img src={data[2].img} alt="" />
             </div>
           </div>
         </div>
