@@ -33,18 +33,21 @@ const About = () => {
             />
           </h1>
           <p>
-            I am a very ambitious front-end developer looking for a role in an
+            Ambitious front-end developer looking for a role in an
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p>
-            I am quietly confident, naturally curious, and perpetually working
-            on improving my chops one design problem at a time.
+            Avid learner, working every day to increase my knowledge of the
+            development world, whether it be through the process of creating and 
+            building projects, learning directly from tutorials, keeping tabs on
+            discussions regarding new strageties and methodologies, or
+            through discussions with my mentor.
           </p>
           <p>
-            If I need to define myself in one sentence, that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!
+            By the looks of the projects I have decided to pursue, I can only
+            guess that I was hungry when the decisions were made. Chinese food and
+            spicy sauces are my personal passions.
           </p>
         </div>
         <div className="stage-cube-content">

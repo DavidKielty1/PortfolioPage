@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom'
 import './home.scss'
 import AnimatedLetters from '../AnimatedLetters/animatedletters.js'
 import { Loader } from 'react-loaders'
+import Logo from './Logo/logo'
+import D1 from '../.././assets/images/d1.png'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['D', 'a', 'v', 'i', 'd']
+  const nameArray = ['a', 'v', 'i', 'd']
   const jobArray = [
     'w',
     'e',
@@ -40,6 +42,7 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m&nbsp;</span>
+            <img className="initial" src={D1} alt="D" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}

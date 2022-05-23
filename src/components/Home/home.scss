@@ -1,5 +1,4 @@
 .home-page {
-
   .text-zone {
     position: absolute;
     left: 10%;
@@ -28,7 +27,7 @@
     }
 
     &::after {
-      content: "</h1>";
+      content: '</h1>';
       font-family: 'La Belle Aurore';
       color: #ffd700;
       font-size: 18px;
@@ -40,8 +39,8 @@
     }
 
     img {
-      width: 32px;
-      margin-left: 20px;
+      width: 50px;
+      margin-left: 0px;
       opacity: 0;
       height: auto;
       animation: rotateIn 1s linear both;
@@ -78,5 +77,4 @@
       color: #333;
     }
   }
-
 }

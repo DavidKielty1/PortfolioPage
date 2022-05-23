@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './portfolio.scss'
 import Arrow from '../../assets/images/arrow.png'
-import Sun from '../../assets/images/chin2.png'
-import Dragon from '../../assets/images/logo3.png'
-import NewYear from '../../assets/images/newyear.png'
+import Panda from '../../assets/images/panda.png'
 import Chinese from '../../assets/images/chinese.png'
 import Yelp from '../../assets/images/yelp.png'
+import Stars from '../../assets/images/stars.png'
+import Gusto from '../../assets/images/gusto.webp'
 import { Loader } from 'react-loaders'
 
 export default function Test() {
@@ -14,18 +14,21 @@ export default function Test() {
   const data = [
     {
       id: '1',
-      icon: NewYear,
-      title: 'Authentic Chinese Food Finder',
-      desc: 'MERN stack application with CRUD functionality. Users are able to submit local Chinese restaurants with information regarding location, price, as well as give reviews and ratings for the various restaurants.',
+      icon: Panda,
+      title: 'Panda Review',
+      desc: 'Users are urged to submit local oriental-themed restaurants with information regarding location, price, and dishes. Users can also give reviews and ratings.',
       img: Chinese,
+      tech: 'Javascript, MonogoDB, Express, Node',
       website: 'https://limitless-refuge-85260.herokuapp.com/',
     },
     {
       id: '2',
-      icon: Sun,
-      title: 'Mobile',
-      desc: '2Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      img: Dragon,
+      icon: Stars,
+      title: 'Michelin Star',
+      desc: 'We champion the finest seasonal produce, creating a unique and relaxed dining experience. Users can order food and have it delivered to their address. React Firebase.',
+      img: Gusto,
+      tech: 'React, Firebase',
+      website: 'https://salty-citadel-43327.herokuapp.com/',
     },
     {
       id: '3',
@@ -33,6 +36,7 @@ export default function Test() {
       title: 'Branding',
       desc: 'Camping',
       img: Yelp,
+      tech: '',
     },
   ]
 
@@ -56,6 +60,7 @@ export default function Test() {
                 </div>
                 <h2>{data[0].title}</h2>
                 <p>{data[0].desc}</p>
+                <p className="Tech">{data[0].tech}</p>
                 <a href={data[0].website} target="_blank" rel="noreferrer">
                   <input
                     type="button"
@@ -84,6 +89,8 @@ export default function Test() {
                 </div>
                 <h2>{data[1].title}</h2>
                 <p>{data[1].desc}</p>
+
+                <p className="Tech">{data[1].tech}</p>
                 <a href={data[1].website} target="_blank" rel="noreferrer">
                   <input
                     type="button"
@@ -112,6 +119,7 @@ export default function Test() {
                 </div>
                 <h2>{data[2].title}</h2>
                 <p>{data[2].desc}</p>
+                <p className="Tech">{data[2].tech}</p>
                 <a
                   href="https://limitless-refuge-85260.herokuapp.com/"
                   target="_blank"
