@@ -16,6 +16,15 @@ export default function Test() {
   const data = [
     {
       id: '1',
+      icon: Girlchef,
+      title: 'Scrumptious',
+      desc: 'Use this fantastic app to search for recipes from different recipes with search function, or through taylor-made categories. ',
+      tech: 'React, FetchAPI',
+      img: Chefhat,
+      website: 'https://exquisite-souffle-cb2d07.netlify.app/',
+    },
+    {
+      id: '2',
       icon: Panda,
       title: 'Panda Review',
       desc: 'Users are urged to submit local oriental-themed restaurants with information regarding location, price, and dishes. Users can also give reviews and ratings.',
@@ -24,21 +33,13 @@ export default function Test() {
       website: 'https://limitless-refuge-85260.herokuapp.com/',
     },
     {
-      id: '2',
+      id: '3',
       icon: Stars,
       title: 'Michelin Star',
       desc: 'We champion the finest seasonal produce, creating a unique and relaxed dining experience. Users can order food and have it delivered to their address. React Firebase.',
       img: Gusto,
       tech: 'React, Firebase',
       website: 'https://salty-citadel-43327.herokuapp.com/',
-    },
-    {
-      id: '3',
-      icon: Girlchef,
-      title: 'Scrumtious',
-      desc: 'Use this fantastic app to search for recipes from different recipes with search function, or through taylor-made categories. ',
-      tech: 'React, FetchAPI',
-      img: Chefhat,
     },
   ]
 
@@ -121,11 +122,7 @@ export default function Test() {
                 <h2>{data[2].title}</h2>
                 <p>{data[2].desc}</p>
                 <p className="Tech">{data[2].tech}</p>
-                <a
-                  href="https://limitless-refuge-85260.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={data[2].website} target="_blank" rel="noreferrer">
                   <input
                     type="button"
                     className="button"

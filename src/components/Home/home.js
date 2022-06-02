@@ -7,9 +7,9 @@ import D1 from '../.././assets/images/d1.png'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['a', 'v', 'i', 'd']
+  const nameArray = ['a', 'v', 'i', 'd', '', 'K', 'i', 'e', 'l', 't', 'y']
   const jobArray = [
-    'w',
+    'W',
     'e',
     'b',
     ' ',

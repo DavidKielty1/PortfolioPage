@@ -16,7 +16,7 @@ const Sidebar = () => {
       </Link>
       <nav>
         <NavLink exact="true" activeactiveclassname="active" to="/">
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#c4c4c4" />
         </NavLink>
         <NavLink
           exact="true"
@@ -24,7 +24,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
         >
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} color="#c4c4c4" />
         </NavLink>
         <NavLink
           exact="true"
@@ -40,7 +40,7 @@ const Sidebar = () => {
           className="contact-link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#c4c4c4" />
         </NavLink>
       </nav>
       <ul>
@@ -50,7 +50,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/d%C3%A1ith%C3%AD-%C3%B3-caoilte-53256948/"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faLinkedin} color="#c4c4c4" />
           </a>
         </li>
         <li>
@@ -59,7 +59,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://github.com/DavidKielty1"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faGithub} color="#c4c4c4" />
           </a>
         </li>
       </ul>

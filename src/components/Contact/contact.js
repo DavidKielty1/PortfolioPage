@@ -46,12 +46,7 @@ const Contact = () => {
               letterClass={letterClass}
             />
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ab,
-            magni vitae sapiente praesentium consequatur saepe asperiores nihil
-            consectetur, inventore minima ipsum quaerat eligendi dolores
-            doloremque, amet corporis officiis excepturi.
-          </p>
+          <p>Please enter your details below to send me a message.</p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>

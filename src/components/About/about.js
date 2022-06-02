@@ -1,5 +1,5 @@
 import {
-  faAngular,
+  faGithub,
   faCss3,
   faGitAlt,
   faHtml5,
@@ -33,27 +33,27 @@ const About = () => {
             />
           </h1>
           <p>
-            Ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            Ambitious front-end developer looking for a role in an established
+            IT company with the opportunity to work with the latest technologies
+            on challenging and diverse projects.
           </p>
           <p>
             Avid learner, working every day to increase my knowledge of the
-            development world, whether it be through the process of creating and 
+            development world, whether it be through the process of creating and
             building projects, learning directly from tutorials, keeping tabs on
-            discussions regarding new strageties and methodologies, or
-            through discussions with my mentor.
+            discussions regarding new strageties and methodologies, or through
+            discussions with my mentor.
           </p>
           <p>
             By the looks of the projects I have decided to pursue, I can only
-            guess that I was hungry when the decisions were made. Chinese food and
-            spicy sauces are my personal passions.
+            guess that I was hungry when the decisions were made. Chinese and
+            spicy food are my personal favourites.
           </p>
         </div>
         <div className="stage-cube-content">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faGithub} color="black" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />

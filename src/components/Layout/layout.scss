@@ -50,6 +50,7 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
+    font-family: 'Helvetica';
 
     h1 {
       font-size: 53px;
@@ -88,7 +89,8 @@
     p {
       font-style: 13px;
       color: #fff;
-      font-family: Helvetica;
+      font-family: 'Helvetica';
+      font-size: 17px;
       font-weight: 100;
       min-width: fit-content;
       animation: pulse 1s;

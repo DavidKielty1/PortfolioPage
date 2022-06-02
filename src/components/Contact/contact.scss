@@ -2,6 +2,10 @@
   width: 100%;
   margin-top: 20px;
 
+  ::placeholder {
+    color: white;
+  }
+
   ul {
     padding: 0;
     margin: 0;
@@ -36,28 +40,26 @@
   input[type='email'] {
     width: 100%;
     border: 0;
-    background: #115173;
+    background: #15638d;
     height: 50px;
-    font-size: 16px;
-    color: #fff;
+    font-size: 17px;
+    color: white;
     padding: 0 20px;
     box-sizing: border-box;
-
-    font-family: Helvetica;
+    font-family: 'Helvetica';
   }
 
   textarea {
     width: 100%;
-    border: 0;
-    background: #115173;
+    border: 1px;
+    background: #15638d;
     height: 50px;
-    font-size: 16px;
-    color: #fff;
+    font-size: 17px;
+    color: white;
     padding: 20px;
     min-height: 150px;
     box-sizing: border-box;
-
-    font-family: Helvetica;
+    font-family: 'Helvetica';
   }
 
   .flat-button {
@@ -70,6 +72,6 @@
     padding: 8px 10px;
     border: 1px solid #ffd700;
     float: right;
-    border-radius: px;
+    border-radius: 1px;
   }
 }
