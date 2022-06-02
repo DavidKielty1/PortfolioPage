@@ -6,6 +6,8 @@ import Chinese from '../../assets/images/chinese.png'
 import Yelp from '../../assets/images/yelp.png'
 import Stars from '../../assets/images/stars.png'
 import Gusto from '../../assets/images/gusto.webp'
+import Girlchef from '../../assets/images/Girlchef.png'
+import Chefhat from '../../assets/images/Chefhat.png'
 import { Loader } from 'react-loaders'
 
 export default function Test() {
@@ -32,11 +34,11 @@ export default function Test() {
     },
     {
       id: '3',
-      icon: Yelp,
-      title: 'Branding',
-      desc: 'Camping',
-      img: Yelp,
-      tech: '',
+      icon: Girlchef,
+      title: 'Scrumtious',
+      desc: 'Use this fantastic app to search for recipes from different recipes with search function, or through taylor-made categories. ',
+      tech: 'React, FetchAPI',
+      img: Chefhat,
     },
   ]
 
@@ -89,7 +91,6 @@ export default function Test() {
                 </div>
                 <h2>{data[1].title}</h2>
                 <p>{data[1].desc}</p>
-
                 <p className="Tech">{data[1].tech}</p>
                 <a href={data[1].website} target="_blank" rel="noreferrer">
                   <input
