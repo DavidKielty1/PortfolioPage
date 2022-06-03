@@ -3,7 +3,6 @@ import './portfolio.scss'
 import Arrow from '../../assets/images/arrow.png'
 import Panda from '../../assets/images/panda.png'
 import Chinese from '../../assets/images/chinese.png'
-import Yelp from '../../assets/images/yelp.png'
 import Stars from '../../assets/images/stars.png'
 import Gusto from '../../assets/images/gusto.webp'
 import Girlchef from '../../assets/images/Girlchef.png'
@@ -36,7 +35,7 @@ export default function Test() {
       id: '3',
       icon: Stars,
       title: 'Michelin Star',
-      desc: 'We champion the finest seasonal produce, creating a unique and relaxed dining experience. Users can order food and have it delivered to their address. React Firebase.',
+      desc: 'We champion the finest seasonal produce, creating a unique and relaxed dining experience. Users can order food and have it delivered to their address.',
       img: Gusto,
       tech: 'React, Firebase',
       website: 'https://salty-citadel-43327.herokuapp.com/',
