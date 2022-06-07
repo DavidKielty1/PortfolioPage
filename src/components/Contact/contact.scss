@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .contact-form {
   width: 100%;
   margin-top: 20px;
@@ -74,4 +76,7 @@
     float: right;
     border-radius: 1px;
   }
+}
+
+@include mobile {
 }

@@ -36,6 +36,9 @@
       transform: rotateY(180deg);
     }
 
+    @include mobile2 {
+      display: none;
+    }
     @include mobile {
       display: none;
     }
@@ -56,6 +59,12 @@
       background-color: #ffd900;
     }
 
+    @include mobile2 {
+      width: 100px;
+      height: 15px;
+      font-size: 11px;
+      margin-top: 0px;
+    }
     @include mobile {
       width: 100px;
       height: 15px;
@@ -69,6 +78,11 @@
     text-align: center;
     margin-top: 17px;
 
+    @include mobile2 {
+      font-size: 13px;
+      margin-top: 5px;
+    }
+
     @include mobile {
       font-size: 13px;
       margin-top: 5px;
@@ -81,6 +95,10 @@
 
     text-align: center;
 
+    @include mobile2 {
+      display: none;
+    }
+
     @include mobile {
       display: none;
     }
@@ -92,6 +110,10 @@
 
   input {
     font-size: 17px;
+
+    @include mobile2 {
+      font-size: 11px;
+    }
 
     @include mobile {
       font-size: 11px;
@@ -106,12 +128,18 @@
   left: 0;
   transition: all 1s ease;
 
-  @include mobile {
-    height: 87vh;
+  @include mobile2 {
     flex-direction: column;
     justify-content: center;
     position: absolute;
     top: -200px;
+  }
+
+  @include mobile {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: -150px;
   }
 
   .container {
@@ -129,10 +157,16 @@
       align-items: center;
       justify-content: center;
 
+      @include mobile2 {
+        width: 50vw;
+        height: 25vh;
+        margin: 10px;
+      }
+
       @include mobile {
-        width: 300px;
-        height: 160px;
-        margin: 10px 0;
+        width: 50vw;
+        height: 25vh;
+        margin: 10px;
       }
 
       .left {
@@ -143,6 +177,11 @@
         justify-content: center;
         margin-left: 15px;
         font-family: 'Coolvetica';
+
+        @include mobile2 {
+          height: 90%;
+          flex: 2.5;
+        }
 
         @include mobile {
           height: 90%;
@@ -157,6 +196,11 @@
           justify-content: center;
           align-items: center;
 
+          @include mobile2 {
+            height: 85%;
+            width: 80%;
+          }
+
           @include mobile {
             height: 85%;
             width: 80%;
@@ -169,6 +213,12 @@
             align-items: center;
             justify-content: center;
 
+            @include mobile2 {
+              width: 40px;
+              height: 40px;
+              align-items: center;
+            }
+
             @include mobile {
               width: 40px;
               height: 40px;
@@ -177,8 +227,13 @@
 
             img {
               width: 105px;
+              @include mobile2 {
+                width: 50px;
+                align-items: center;
+              }
+
               @include mobile {
-                width: 20px;
+                width: 40px;
                 align-items: center;
               }
             }
@@ -201,6 +256,11 @@
           position: relative;
           top: 10px;
           right: 0px;
+
+          @include mobile2 {
+            width: 85%;
+            height: 85%;
+          }
 
           @include mobile {
             width: 85%;
@@ -218,12 +278,19 @@
   left: 100vw;
   transition: all 1s ease;
 
-  @include mobile {
-    height: 87vh;
+  @include mobile2 {
     flex-direction: column;
     justify-content: center;
-    top: -400;
     left: 0;
+  }
+
+  @include mobile {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
   }
 
   .container {
@@ -241,10 +308,16 @@
       align-items: center;
       justify-content: center;
 
+      @include mobile2 {
+        width: 50vw;
+        height: 25vh;
+        margin: 10px;
+      }
+
       @include mobile {
-        width: 300px;
-        height: 160px;
-        margin: 10px 0;
+        width: 50vw;
+        height: 25vh;
+        margin: 10px;
       }
 
       .left {
@@ -255,6 +328,11 @@
         justify-content: center;
         margin-left: 15px;
         font-family: 'Coolvetica';
+
+        @include mobile2 {
+          height: 90%;
+          flex: 2.5;
+        }
 
         @include mobile {
           height: 90%;
@@ -269,17 +347,28 @@
           justify-content: center;
           align-items: center;
 
+          @include mobile2 {
+            height: 95%;
+            width: 80%;
+          }
+
           @include mobile {
             height: 95%;
             width: 80%;
           }
 
           .imgContainer {
-            width: 105px;
+            width: 5px;
             height: 105px;
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @include mobile2 {
+              width: 40px;
+              height: 40px;
+              align-items: center;
+            }
 
             @include mobile {
               width: 40px;
@@ -289,8 +378,13 @@
 
             img {
               width: 105px;
+              @include mobile2 {
+                width: 50px;
+                align-items: center;
+              }
+
               @include mobile {
-                width: 20px;
+                width: 40px;
                 align-items: center;
               }
             }
@@ -314,7 +408,7 @@
           top: 10px;
           right: 0px;
 
-          @include mobile {
+          @include mobile2 {
             width: 85%;
             height: 85%;
           }
@@ -330,13 +424,20 @@
   left: 200vw;
   transition: all 1s ease;
 
-  @include mobile {
-    height: 87vh;
+  @include mobile2 {
     flex-direction: column;
     justify-content: center;
     position: absolute;
     left: 0;
-    top: 145px;
+    top: 290px;
+  }
+
+  @include mobile {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 290px;
   }
 
   .container {
@@ -354,10 +455,10 @@
       align-items: center;
       justify-content: center;
 
-      @include mobile {
-        width: 300px;
-        height: 160px;
-        margin: 10px 0;
+      @include mobile2 {
+        width: 50vw;
+        height: 25vh;
+        margin: 0px;
       }
 
       .left {
@@ -369,8 +470,8 @@
         margin-left: 15px;
         font-family: 'Coolvetica';
 
-        @include mobile {
-          height: 90%;
+        @include mobile2 {
+          height: 100%;
           flex: 2.5;
         }
 
@@ -382,7 +483,7 @@
           justify-content: center;
           align-items: center;
 
-          @include mobile {
+          @include mobile2 {
             height: 95%;
             width: 80%;
           }
@@ -394,7 +495,7 @@
             align-items: center;
             justify-content: center;
 
-            @include mobile {
+            @include mobile2 {
               width: 40px;
               height: 40px;
               align-items: center;
@@ -403,8 +504,13 @@
             img {
               width: 105px;
 
+              @include mobile2 {
+                width: 50px;
+                align-items: center;
+              }
+
               @include mobile {
-                width: 20px;
+                width: 40px;
                 align-items: center;
               }
             }
@@ -427,11 +533,37 @@
           top: 10px;
           right: 0px;
 
-          @include mobile {
+          @include mobile2 {
             width: 85%;
             height: 85%;
           }
         }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .slider,
+  .slider-two,
+  .slider-three {
+    .container {
+      .item {
+        width: 70vw;
+        height: 25vh;
+      }
+    }
+  }
+}
+
+@include mobile2 {
+  .slider,
+  .slider-two,
+  .slider-three {
+    .container {
+      .item {
+        height: 30vh;
+        width: 60vw;
       }
     }
   }
