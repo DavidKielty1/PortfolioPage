@@ -48,111 +48,113 @@ export default function Test() {
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
   }
   return (
-    <div className="works" id="works">
-      <div
-        className="slider"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
-        <div className="container">
-          <div className="item">
-            <div className="left">
-              <div className="leftContainer">
-                <div className="imgContainer">
-                  <img src={data[0].icon} alt="" />
+    <div className="container">
+      <div className="works" id="works">
+        <div
+          className="slider"
+          style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+        >
+          <div className="container">
+            <div className="item">
+              <div className="left">
+                <div className="leftContainer">
+                  <div className="imgContainer">
+                    <img src={data[0].icon} alt="" />
+                  </div>
+                  <h2>{data[0].title}</h2>
+                  <p>{data[0].desc}</p>
+                  <p className="Tech">{data[0].tech}</p>
+                  <a href={data[0].website} target="_blank" rel="noreferrer">
+                    <input
+                      type="button"
+                      className="button"
+                      value="Open Website"
+                    />
+                  </a>
                 </div>
-                <h2>{data[0].title}</h2>
-                <p>{data[0].desc}</p>
-                <p className="Tech">{data[0].tech}</p>
-                <a href={data[0].website} target="_blank" rel="noreferrer">
-                  <input
-                    type="button"
-                    className="button"
-                    value="Open Website"
-                  />
-                </a>
               </div>
-            </div>
-            <div className="right">
-              <img src={data[0].img} alt="" />
+              <div className="right">
+                <img src={data[0].img} alt="" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div
-        className="slider-two"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
-        <div className="container">
-          <div className="item">
-            <div className="left">
-              <div className="leftContainer">
-                <div className="imgContainer">
-                  <img src={data[1].icon} alt="" />
+        <div
+          className="slider-two"
+          style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+        >
+          <div className="container">
+            <div className="item">
+              <div className="left">
+                <div className="leftContainer">
+                  <div className="imgContainer">
+                    <img src={data[1].icon} alt="" />
+                  </div>
+                  <h2>{data[1].title}</h2>
+                  <p>{data[1].desc}</p>
+                  <p className="Tech">{data[1].tech}</p>
+                  <a href={data[1].website} target="_blank" rel="noreferrer">
+                    <input
+                      type="button"
+                      className="button"
+                      value="Open Website"
+                    />
+                  </a>
                 </div>
-                <h2>{data[1].title}</h2>
-                <p>{data[1].desc}</p>
-                <p className="Tech">{data[1].tech}</p>
-                <a href={data[1].website} target="_blank" rel="noreferrer">
-                  <input
-                    type="button"
-                    className="button"
-                    value="Open Website"
-                  />
-                </a>
               </div>
-            </div>
-            <div className="right">
-              <img src={data[1].img} alt="" />
+              <div className="right">
+                <img src={data[1].img} alt="" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div
-        className="slider-three"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
-        <div className="container">
-          <div className="item">
-            <div className="left">
-              <div className="leftContainer">
-                <div className="imgContainer">
-                  <img src={data[2].icon} alt="" />
+        <div
+          className="slider-three"
+          style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+        >
+          <div className="container">
+            <div className="item">
+              <div className="left">
+                <div className="leftContainer">
+                  <div className="imgContainer">
+                    <img src={data[2].icon} alt="" />
+                  </div>
+                  <h2>{data[2].title}</h2>
+                  <p>{data[2].desc}</p>
+                  <p className="Tech">{data[2].tech}</p>
+                  <a href={data[2].website} target="_blank" rel="noreferrer">
+                    <input
+                      type="button"
+                      className="button"
+                      value="Open Website"
+                    />
+                  </a>
                 </div>
-                <h2>{data[2].title}</h2>
-                <p>{data[2].desc}</p>
-                <p className="Tech">{data[2].tech}</p>
-                <a href={data[2].website} target="_blank" rel="noreferrer">
-                  <input
-                    type="button"
-                    className="button"
-                    value="Open Website"
-                  />
-                </a>
               </div>
-            </div>
-            <div className="right">
-              <img src={data[2].img} alt="" />
+              <div className="right">
+                <img src={data[2].img} alt="" />
+              </div>
             </div>
           </div>
         </div>
+        <img
+          src={Arrow}
+          className="arrow left"
+          alt="previous work"
+          onClick={() => {
+            handleClick('left')
+          }}
+        />
+        <img
+          src={Arrow}
+          className="arrow right"
+          alt="next work"
+          onClick={() => {
+            handleClick('')
+          }}
+        />
+        <Loader type="pacman"></Loader>
       </div>
-      <img
-        src={Arrow}
-        className="arrow left"
-        alt="previous work"
-        onClick={() => {
-          handleClick('left')
-        }}
-      />
-      <img
-        src={Arrow}
-        className="arrow right"
-        alt="next work"
-        onClick={() => {
-          handleClick('')
-        }}
-      />
-      <Loader type="pacman"></Loader>
     </div>
   )
 }

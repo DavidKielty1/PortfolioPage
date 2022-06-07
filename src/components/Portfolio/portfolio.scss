@@ -1,22 +1,43 @@
+@import '../../global.scss';
+
+.contaider {
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
+}
+
 .works {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  height: 100vh;
+  height: 80vh;
 
   .arrow {
-    height: 125px;
+    height: 165px;
+    width: 80px;
     position: absolute;
     cursor: pointer;
 
     &.left {
-      left: 200px;
+      left: 100px;
     }
 
     &.right {
-      right: 200px;
+      right: 100px;
       transform: rotateY(180deg);
+    }
+
+    @include mobile {
+      display: none;
     }
   }
 
@@ -34,12 +55,24 @@
     &:hover {
       background-color: #ffd900;
     }
+
+    @include mobile {
+      width: 100px;
+      height: 15px;
+      font-size: 11px;
+      margin-top: 0px;
+    }
   }
 
   h2 {
     font-size: 28px;
     text-align: center;
     margin-top: 17px;
+
+    @include mobile {
+      font-size: 13px;
+      margin-top: 5px;
+    }
   }
 
   p {
@@ -47,6 +80,10 @@
     margin-top: 0;
 
     text-align: center;
+
+    @include mobile {
+      display: none;
+    }
   }
 
   .Tech {
@@ -55,6 +92,10 @@
 
   input {
     font-size: 17px;
+
+    @include mobile {
+      font-size: 11px;
+    }
   }
 }
 
@@ -62,8 +103,16 @@
   height: 550px;
   display: flex;
   position: absolute;
-  left: 0px;
+  left: 0;
   transition: all 1s ease;
+
+  @include mobile {
+    height: 87vh;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: -200px;
+  }
 
   .container {
     width: 100vw;
@@ -80,6 +129,12 @@
       align-items: center;
       justify-content: center;
 
+      @include mobile {
+        width: 300px;
+        height: 160px;
+        margin: 10px 0;
+      }
+
       .left {
         flex: 1.8;
         height: 80%;
@@ -89,6 +144,11 @@
         margin-left: 15px;
         font-family: 'Coolvetica';
 
+        @include mobile {
+          height: 90%;
+          flex: 2.5;
+        }
+
         .leftContainer {
           width: 90%;
           height: 80%;
@@ -97,6 +157,11 @@
           justify-content: center;
           align-items: center;
 
+          @include mobile {
+            height: 85%;
+            width: 80%;
+          }
+
           .imgContainer {
             width: 105px;
             height: 105px;
@@ -104,8 +169,18 @@
             align-items: center;
             justify-content: center;
 
+            @include mobile {
+              width: 40px;
+              height: 40px;
+              align-items: center;
+            }
+
             img {
               width: 105px;
+              @include mobile {
+                width: 20px;
+                align-items: center;
+              }
             }
           }
         }
@@ -126,6 +201,11 @@
           position: relative;
           top: 10px;
           right: 0px;
+
+          @include mobile {
+            width: 85%;
+            height: 85%;
+          }
         }
       }
     }
@@ -138,6 +218,14 @@
   left: 100vw;
   transition: all 1s ease;
 
+  @include mobile {
+    height: 87vh;
+    flex-direction: column;
+    justify-content: center;
+    top: -400;
+    left: 0;
+  }
+
   .container {
     width: 100vw;
     display: flex;
@@ -153,6 +241,12 @@
       align-items: center;
       justify-content: center;
 
+      @include mobile {
+        width: 300px;
+        height: 160px;
+        margin: 10px 0;
+      }
+
       .left {
         flex: 1.8;
         height: 80%;
@@ -162,6 +256,11 @@
         margin-left: 15px;
         font-family: 'Coolvetica';
 
+        @include mobile {
+          height: 90%;
+          flex: 2.5;
+        }
+
         .leftContainer {
           width: 90%;
           height: 80%;
@@ -170,6 +269,11 @@
           justify-content: center;
           align-items: center;
 
+          @include mobile {
+            height: 95%;
+            width: 80%;
+          }
+
           .imgContainer {
             width: 105px;
             height: 105px;
@@ -177,8 +281,18 @@
             align-items: center;
             justify-content: center;
 
+            @include mobile {
+              width: 40px;
+              height: 40px;
+              align-items: center;
+            }
+
             img {
               width: 105px;
+              @include mobile {
+                width: 20px;
+                align-items: center;
+              }
             }
           }
         }
@@ -199,6 +313,11 @@
           position: relative;
           top: 10px;
           right: 0px;
+
+          @include mobile {
+            width: 85%;
+            height: 85%;
+          }
         }
       }
     }
@@ -211,6 +330,15 @@
   left: 200vw;
   transition: all 1s ease;
 
+  @include mobile {
+    height: 87vh;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 145px;
+  }
+
   .container {
     width: 100vw;
     display: flex;
@@ -226,6 +354,12 @@
       align-items: center;
       justify-content: center;
 
+      @include mobile {
+        width: 300px;
+        height: 160px;
+        margin: 10px 0;
+      }
+
       .left {
         flex: 1.8;
         height: 80%;
@@ -235,6 +369,11 @@
         margin-left: 15px;
         font-family: 'Coolvetica';
 
+        @include mobile {
+          height: 90%;
+          flex: 2.5;
+        }
+
         .leftContainer {
           width: 90%;
           height: 80%;
@@ -243,6 +382,11 @@
           justify-content: center;
           align-items: center;
 
+          @include mobile {
+            height: 95%;
+            width: 80%;
+          }
+
           .imgContainer {
             width: 105px;
             height: 105px;
@@ -250,8 +394,19 @@
             align-items: center;
             justify-content: center;
 
+            @include mobile {
+              width: 40px;
+              height: 40px;
+              align-items: center;
+            }
+
             img {
               width: 105px;
+
+              @include mobile {
+                width: 20px;
+                align-items: center;
+              }
             }
           }
         }
@@ -271,6 +426,11 @@
           position: relative;
           top: 10px;
           right: 0px;
+
+          @include mobile {
+            width: 85%;
+            height: 85%;
+          }
         }
       }
     }
