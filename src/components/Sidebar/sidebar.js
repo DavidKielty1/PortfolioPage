@@ -28,10 +28,10 @@ const Sidebar = () => {
       <div className="logodiv">
         <Link className="logo" to="/">
           <img src={D1} alt="logo" />
-          <img className="sub-logo" src={SubLogo} alt="slobodan" />
+          <img className="sub-logo" src={SubLogo} alt="DavidKielty" />
         </Link>
       </div>
-      <nav className={navClasses}>
+      <nav onClick={mobileHandler} className={navClasses}>
         <NavLink exact="true" activeactiveclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#c4c4c4" />
         </NavLink>
