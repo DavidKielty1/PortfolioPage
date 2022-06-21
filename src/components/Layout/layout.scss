@@ -25,6 +25,26 @@
   margin-left: -20px;
 }
 
+@include mobile {
+  .page {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .top-tags {
+    display: none;
+  }
+
+  .tags {
+    display: none;
+  }
+
+  .bottom-tag-html {
+    display: none;
+  }
+}
+
 .container {
   width: 100%;
   will-change: contents;

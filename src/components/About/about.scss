@@ -41,8 +41,26 @@
   font-size: 15px;
 }
 
-@include mobile {
+@media (max-width: 768px) {
   .stage-cube-content {
+    display: none;
+  }
+
+  .page {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .tags {
+    display: none;
+  }
+
+  .bottom-tag-html {
+    display: none;
+  }
+
+  .top-tags {
     display: none;
   }
 }
