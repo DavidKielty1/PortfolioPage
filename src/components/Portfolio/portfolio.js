@@ -20,7 +20,7 @@ export default function Test() {
       desc: 'Use this fantastic app to search for recipes from different cuisines with a search function, or through taylor-made categories. ',
       tech: 'React, FetchAPI',
       img: Chefhat,
-      website: 'https://foodapp-624be.firebaseapp.com/',
+      website: 'https://exquisite-souffle-cb2d07.netlify.app/',
     },
     {
       id: '2',
@@ -38,7 +38,7 @@ export default function Test() {
       desc: 'We champion the finest seasonal produce, creating a unique and relaxed dining experience. Users can order food and have it delivered to their address.',
       img: Gusto,
       tech: 'React, Firebase',
-      website: 'https://salty-citadel-43327.herokuapp.com/',
+      website: 'https://foodapp-624be.firebaseapp.com/',
     },
   ]
 
