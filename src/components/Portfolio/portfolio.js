@@ -20,7 +20,7 @@ export default function Test() {
       desc: 'Use this fantastic app to search for recipes from different cuisines with a search function, or through taylor-made categories. ',
       tech: 'React, FetchAPI',
       img: Chefhat,
-      website: 'https://exquisite-souffle-cb2d07.netlify.app/',
+      website: 'https://foodapp-624be.firebaseapp.com/',
     },
     {
       id: '2',
@@ -29,7 +29,7 @@ export default function Test() {
       desc: 'Users are urged to submit local oriental-themed restaurants with information regarding location, price, and dishes. Users can also give reviews and ratings.',
       img: Chinese,
       tech: 'Javascript, MonogoDB, Express, Node',
-      website: 'https://limitless-refuge-85260.herokuapp.com/',
+      website: 'https://pandareview-production.up.railway.app/restaurants',
     },
     {
       id: '3',
