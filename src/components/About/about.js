@@ -33,20 +33,36 @@ const About = () => {
             />
           </h1>
           <p>
-            Ambitious front-end developer looking for a role in an established
-            IT company with the opportunity to work with the latest technologies
-            on challenging and diverse projects.
+            Ambitious software developer looking for role in established company
+            with opportunity to work with latest technologies on challenging and
+            diverse projects. Striving every day to increase knowledge of the
+            development world through building projects and keeping track of
+            newest methodologies.
           </p>
           <p>
-            Avid learner, working every day to increase my knowledge of the
-            development world through the process of building projects and
-            keeping track of new methodologies.
+            Interest in advanced techniques: Typescript with Zod, tRPC, strict
+            linting rules to ensure type safety from front to back-end.
+            Experience in deploying to multiple platforms, and utilizing various
+            databases. PostgreSQL (Supabase, Prisma ORM for schema), and NoSQL
+            (Firebase & MongoDB).
           </p>
-          {/*<p>
-          By the looks of the projects I have decided to pursue, I can only
-          guess that I was hungry when the decisions were made. Chinese and
-          spicy food are my personal favourites.
-        </p>*/}
+          <p>
+            CSS technologies and experience include use of CSS modules, SCSS
+            SASS, styled components, as well as tailwind, DaisyUI, &
+            BootstrapUI. I have vast experience in React methodologies including
+            hooks, contextAPI, fetchAPI, global state management (redux), and
+            memoization. I have utilzed NextJS versions 13 and earlier.
+          </p>
+          <p>
+            Please check out my github repositories at{' '}
+            <a
+              href="https://github.com/DavidKielty1?tab=repositories"
+              className="github"
+            >
+              https://github.com/DavidKielty1?tab=repositories
+            </a>{' '}
+            to find out more about what I have been working on.
+          </p>
         </div>
         <div className="stage-cube-content">
           <div className="cubespinner">
