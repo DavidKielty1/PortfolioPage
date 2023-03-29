@@ -39,16 +39,14 @@ const About = () => {
           </p>
           <p>
             Avid learner, working every day to increase my knowledge of the
-            development world, whether it be through the process of creating and
-            building projects, direct learning, keeping tabs on discussions
-            regarding new strageties and methodologies, or through discussions
-            with my mentor.
+            development world through the process of building projects and
+            keeping track of new methodologies.
           </p>
-          <p>
-            By the looks of the projects I have decided to pursue, I can only
-            guess that I was hungry when the decisions were made. Chinese and
-            spicy food are my personal favourites.
-          </p>
+          {/*<p>
+          By the looks of the projects I have decided to pursue, I can only
+          guess that I was hungry when the decisions were made. Chinese and
+          spicy food are my personal favourites.
+        </p>*/}
         </div>
         <div className="stage-cube-content">
           <div className="cubespinner">
