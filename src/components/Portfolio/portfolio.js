@@ -17,7 +17,7 @@ export default function Test() {
       id: '1',
       icon: Girlchef,
       title: 'Scrumptious',
-      desc: 'Use this fantastic app to search for recipes from different cuisines with a search function, or through taylor-made categories. ',
+      desc: 'Use this fantastic app to search for recipes from different cuisines with a search function, or through tailor-made categories. ',
       tech: 'React, FetchAPI',
       img: Chefhat,
       website: 'https://exquisite-souffle-cb2d07.netlify.app/',
