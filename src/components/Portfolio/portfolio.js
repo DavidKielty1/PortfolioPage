@@ -18,7 +18,7 @@ export default function Test() {
       icon: Girlchef,
       title: 'Scrumptious',
       desc: 'Use this fantastic app to search for recipes from different cuisines with a search function, or through tailor-made categories. ',
-      tech: 'React, FetchAPI',
+      tech: 'React, FetchAPI, Styled Components, Carousel',
       img: Chefhat,
       website: 'https://exquisite-souffle-cb2d07.netlify.app/',
     },
@@ -28,7 +28,7 @@ export default function Test() {
       title: 'Panda Review',
       desc: 'Users are urged to submit local oriental-themed restaurants with information regarding location, price, and dishes. Users can also give reviews and ratings.',
       img: Chinese,
-      tech: 'Javascript, MonogoDB, Express, Node',
+      tech: 'Javascript, MongoDB, Mongoose, Express, Node, Sessions',
       website: 'https://pandareview-production.up.railway.app/restaurants',
     },
     {
@@ -37,7 +37,7 @@ export default function Test() {
       title: 'Michelin Star',
       desc: 'We champion the finest seasonal produce, creating a unique and relaxed dining experience. Users can order food and have it delivered to their address.',
       img: Gusto,
-      tech: 'React, Firebase',
+      tech: 'React, Firebase, ContextAPI, SASS',
       website: 'https://foodapp-624be.firebaseapp.com/',
     },
   ]

@@ -25,15 +25,16 @@ const Sidebar = () => {
 
   return (
     <div className="nav-bar">
+      {/*
       <div className="logodiv">
         <Link className="logo" to="/">
           <img src={D1} alt="logo" />
           <img className="sub-logo" src={SubLogo} alt="DavidKielty" />
         </Link>
-      </div>
+  </div>*/}
       <nav onClick={mobileHandler} className={navClasses}>
         <NavLink exact="true" activeactiveclassname="active" to="/">
-          <FontAwesomeIcon icon={faHome} color="#c4c4c4" />
+          <FontAwesomeIcon icon={faHome} color="white" />
         </NavLink>
         <NavLink
           exact="true"
@@ -41,7 +42,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
         >
-          <FontAwesomeIcon icon={faUser} color="#c4c4c4" />
+          <FontAwesomeIcon icon={faUser} color="white" />
         </NavLink>
         <NavLink
           exact="true"
@@ -57,7 +58,7 @@ const Sidebar = () => {
           className="contact-link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#c4c4c4" />
+          <FontAwesomeIcon icon={faEnvelope} color="white" />
         </NavLink>
       </nav>
       <div className="uldiv">
@@ -68,7 +69,7 @@ const Sidebar = () => {
               rel="noreferrer"
               href="https://www.linkedin.com/in/d%C3%A1ith%C3%AD-%C3%B3-caoilte-53256948/"
             >
-              <FontAwesomeIcon icon={faLinkedin} color="#c4c4c4" />
+              <FontAwesomeIcon icon={faLinkedin} color="white" />
             </a>
           </li>
           <li>
@@ -77,7 +78,7 @@ const Sidebar = () => {
               rel="noreferrer"
               href="https://github.com/DavidKielty1"
             >
-              <FontAwesomeIcon icon={faGithub} color="#c4c4c4" />
+              <FontAwesomeIcon icon={faGithub} color="white" />
             </a>
           </li>
         </ul>
