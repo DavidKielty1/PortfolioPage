@@ -51,17 +51,14 @@ const About = () => {
             SASS, styled components, as well as tailwind, DaisyUI, &
             BootstrapUI. I have vast experience in React methodologies including
             hooks, contextAPI, fetchAPI, global state management (redux), and
-            memoization. I have utilzed NextJS versions 13 and earlier.
-          </p>
-          <p>
-            Please check out my github repositories at{' '}
+            memoization. I have utilized NextJS versions 13 and earlier. {''}
             <a
               href="https://github.com/DavidKielty1?tab=repositories"
               className="github"
             >
               https://github.com/DavidKielty1?tab=repositories
             </a>{' '}
-            to find out more about what I have been working on.
+            to find out more.
           </p>
         </div>
         <div className="stage-cube-content">
