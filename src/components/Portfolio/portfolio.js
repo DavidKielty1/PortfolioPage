@@ -29,7 +29,7 @@ export default function Test() {
       desc: 'Users are urged to submit local oriental-themed restaurants with information regarding location, price, and dishes. Users can also give reviews and ratings.',
       img: Chinese,
       tech: 'Javascript, MonogoDB, Express, Node',
-      website: 'https://pandareview-production.up.railway.app/restaurants',
+      website: 'https://pandareview.onrender.com/',
     },
     {
       id: '3',
