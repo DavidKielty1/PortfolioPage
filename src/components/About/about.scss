@@ -6,6 +6,15 @@
   position: absolute;
 }
 
+.github {
+  text-decoration: none;
+  color: rgb(240, 255, 101);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .top-tags {
   bottom: auto;
   top: 35px;
