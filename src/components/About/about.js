@@ -35,30 +35,31 @@ const About = () => {
           <p>
             Ambitious software developer looking for role in established company
             with opportunity to work with latest technologies on challenging and
-            diverse projects. Striving every day to increase knowledge of the
-            development world through building projects and keeping track of
-            newest methodologies.
+            diverse projects. Continuously expanding my knowledge of development
+            through building projects and keeping tabs on newest methodologies.
           </p>
           <p>
-            Interest in advanced techniques: Typescript with Zod, tRPC, strict
-            linting rules to ensure type safety from front to back-end.
-            Experience in deploying to multiple platforms, and utilizing various
-            databases. PostgreSQL (Supabase, Prisma ORM for schema), and NoSQL
-            (Firebase & MongoDB).
+            Interest in advanced techniques such as type-safety through
+            utilization of Typescript with Zod, tRPC, and strict linting rules.
+            Experienced in deploying to multiple platforms, and utilizing
+            various databases e.g. PostgreSQL Supabase with Prisma ORM, & NoSQL
+            Firebase & MongoDB. Testing CI/CD github actions with yaml & docker.
           </p>
           <p>
-            CSS technologies and experience include use of CSS modules, SCSS
-            SASS, styled components, as well as tailwind, DaisyUI, &
-            BootstrapUI. I have vast experience in React methodologies including
-            hooks, contextAPI, fetchAPI, global state management (redux), and
-            memoization. I have utilized NextJS versions 13 and earlier. {''}
+            CSS knowledge spans CSS modules, SCSS SASS, styled components, as
+            well as Tailwind, DaisyUI, & BootstrapUI. I have vast experience in
+            React methodologies including hooks, contextAPI, fetchAPI
+            react-query, global state management (redux), and memoization. I
+            have utilized NextJS versions 13 and earlier.
+          </p>
+          <p>
+            {' '}
             <a
               href="https://github.com/DavidKielty1?tab=repositories"
               className="github"
             >
-              https://github.com/DavidKielty1?tab=repositories
-            </a>{' '}
-            to find out more.
+              Find out what I have recently been exploring on github.
+            </a>
           </p>
         </div>
         <div className="stage-cube-content">
