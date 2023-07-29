@@ -30,8 +30,8 @@ export default function Test() {
       title: 'Panda Review',
       desc: 'Users are urged to submit local oriental-themed restaurants with information regarding location, price, and dishes. Users can also give reviews and ratings.',
       img: Chinese,
-      tech: 'Javascript, MongoDB, Mongoose, Express, Node, Sessions',
-      website: 'https://pandareview-production.up.railway.app/restaurants',
+      tech: 'Javascript, MonogoDB, Mongoose, Express, Node, Sessions',
+      website: 'https://pandareview.onrender.com/',
     },
     {
       id: '3',
