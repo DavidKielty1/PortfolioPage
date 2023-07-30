@@ -21,7 +21,7 @@ export default function Test() {
       title: 'Unite',
       desc: 'Invite others in to your life!',
       img: MeetupMain,
-      tech: 'NextJS, Tailwind PrismaORM, PostgreSQL, Zod, tRPC, CI/CD',
+      tech: 'NextJS, Typescript, Tailwind PrismaORM, PostgreSQL, Zod, tRPC, CI/CD',
       website: 'https://meetups-t3.vercel.app/',
     },
     {
@@ -30,7 +30,7 @@ export default function Test() {
       title: 'Panda Review',
       desc: 'Users are urged to submit local oriental-themed restaurants with information regarding location, price, and dishes. Users can also give reviews and ratings.',
       img: Chinese,
-      tech: 'Javascript, MonogoDB, Mongoose, Express, Node, Sessions',
+      tech: 'Javascript, MongoDB, Mongoose, Express, Node, Sessions',
       website: 'https://pandareview.onrender.com/',
     },
     {
