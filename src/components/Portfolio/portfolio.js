@@ -21,7 +21,7 @@ export default function Test() {
       title: 'Unite',
       desc: 'Invite others in to your life!',
       img: MeetupMain,
-      tech: 'NextJS, Typescript, Tailwind PrismaORM, PostgreSQL, Zod, tRPC, CI/CD',
+      tech: 'NextJS, Typescript, Tailwind, PrismaORM, PostgreSQL, Zod, tRPC, CI/CD',
       website: 'https://meetups-t3.vercel.app/',
     },
     {
