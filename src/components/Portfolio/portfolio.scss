@@ -256,6 +256,7 @@
   .container {
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -581,10 +582,10 @@
 
   .slider,
   .slider-two,
-  .slider-three {
+  .slider-three,
+  .slider-four {
     height: 0px;
     left: 0px;
-    height: 0px;
 
     .container {
       pointer-events: none;
@@ -600,10 +601,10 @@
 @include mobile2 {
   .slider,
   .slider-two,
-  .slider-three {
+  .slider-three,
+  .slider-four {
     height: 0px;
     left: 0px;
-    height: 0px;
 
     .container {
       pointer-events: none;
@@ -615,15 +616,48 @@
   }
 }
 
+// @include mobile {
+//   .slider {
+//     top: auto;
+//   }
+//   .slider-two {
+//     top: auto;
+//   }
+//   .slider-three {
+//     top: auto;
+//   }
+//   .slider-four {
+//     top: auto;
+//   }
+// }
+
+// @include mobile2 {
+//   .slider {
+//     top: auto;
+//   }
+//   .slider-two {
+//     top: auto;
+//   }
+//   .slider-three {
+//     top: auto;
+//   }
+//   .slider-four {
+//     top: auto;
+//   }
+// }
+
 @include mobile {
   .slider {
-    top: -150px;
+    top: -100px;
   }
   .slider-two {
-    top: 50px;
+    top: 150px;
   }
   .slider-three {
-    top: 250px;
+    top: 400px;
+  }
+  .slider-four {
+    top: 650px;
   }
 }
 
@@ -636,5 +670,8 @@
   }
   .slider-three {
     top: 340px;
+  }
+  .slider-four {
+    top: 500px;
   }
 }

@@ -138,7 +138,7 @@
 }
 
 .navbartoggle .bar {
-  display: block;
+  justify-content: block;
   cursor: pointer;
 }
 
@@ -169,7 +169,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     .logo {
       align-items: center;
@@ -184,10 +184,6 @@
         }
       }
     }
-  }
-
-  .navbar-toggle {
-    margin-right: 40px;
   }
 
   .navbar-toggle .bar {
