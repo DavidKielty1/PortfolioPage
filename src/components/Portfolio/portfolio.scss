@@ -48,7 +48,7 @@
     background-color: #ffe241;
     color: black;
     border: 1px solid black;
-    width: 245px;
+    width: 250px;
     height: 30px;
     margin-top: 17px;
     border-radius: 3px;
@@ -61,7 +61,7 @@
     }
 
     @include mobile2 {
-      width: 100px;
+      width: 150px;
       height: 15px;
       font-size: 11px;
       margin-top: 0px;
@@ -136,8 +136,7 @@
     align-items: center;
 
     .item {
-      width: 900px;
-      height: 100%;
+      max-width: 900px;
       background-color: white;
       border-radius: 20px;
       display: flex;
@@ -171,16 +170,6 @@
           justify-content: center;
           align-items: center;
 
-          @include mobile2 {
-            height: 85%;
-            width: 80%;
-          }
-
-          @include mobile {
-            height: 85%;
-            width: 80%;
-          }
-
           .imgContainer {
             width: 105px;
             height: 105px;
@@ -189,19 +178,18 @@
             justify-content: center;
 
             @include mobile2 {
-              width: 40px;
-              height: 40px;
+              max-width: 40px;
+              max-height: 40px;
               align-items: center;
             }
 
             @include mobile {
-              width: 40px;
-              height: 40px;
+              max-width: 40px;
+              max-height: 40px;
               align-items: center;
             }
 
             img {
-              width: 105px;
               @include mobile2 {
                 width: 50px;
                 align-items: center;
@@ -592,7 +580,7 @@
 
       .item {
         width: 80vw;
-        height: 25vh;
+        height: 20vh;
       }
     }
   }
@@ -609,69 +597,39 @@
     .container {
       pointer-events: none;
       .item {
-        height: 30vh;
+        height: 20vh;
         width: 60vw;
       }
     }
   }
 }
 
-// @include mobile {
-//   .slider {
-//     top: auto;
-//   }
-//   .slider-two {
-//     top: auto;
-//   }
-//   .slider-three {
-//     top: auto;
-//   }
-//   .slider-four {
-//     top: auto;
-//   }
-// }
-
-// @include mobile2 {
-//   .slider {
-//     top: auto;
-//   }
-//   .slider-two {
-//     top: auto;
-//   }
-//   .slider-three {
-//     top: auto;
-//   }
-//   .slider-four {
-//     top: auto;
-//   }
-// }
-
 @include mobile {
   .slider {
-    top: -100px;
+    top: -130px;
   }
   .slider-two {
-    top: 150px;
+    top: 80px;
   }
   .slider-three {
-    top: 400px;
+    top: 290px;
   }
   .slider-four {
-    top: 650px;
+    top: 500px;
   }
 }
 
 @include mobile2 {
   .slider {
-    top: -160px;
+    top: -170px;
   }
   .slider-two {
-    top: 90px;
+    top: 30px;
   }
   .slider-three {
-    top: 340px;
+    top: 230px;
   }
   .slider-four {
-    top: 500px;
+    top: 430px;
   }
 }
